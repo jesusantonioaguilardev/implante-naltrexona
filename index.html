@@ -52,6 +52,16 @@
     .label { font-size: .8rem; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
     h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.15; font-weight: 600; letter-spacing: -.02em; margin-bottom: 16px; }
     .intro { font-size: 1.15rem; color: var(--muted); }
+    .tagline { font-size: clamp(1.35rem, 3.4vw, 1.75rem); line-height: 1.3; font-weight: 500; color: var(--accent); margin-bottom: 16px; letter-spacing: -.01em; }
+
+    /* Afirmación destacada */
+    .highlight { margin: 0 0 36px; padding: 28px 0; border-top: 1px solid var(--text); border-bottom: 1px solid var(--text); }
+    .highlight p { font-size: clamp(1.7rem, 4.6vw, 2.4rem); line-height: 1.2; font-weight: 600; letter-spacing: -.02em; color: var(--accent); }
+    .highlight p + p { margin-top: 18px; }
+
+    .refs { font-size: .85rem; color: var(--muted); padding-left: 1.2em; }
+    .refs li + li { margin-top: 8px; }
+    .refs a { word-break: break-all; }
 
     /* Foto (espacio reservado) */
     .photo { margin: 8px 0 36px; aspect-ratio: 16 / 9; background: var(--soft); border: 1px solid var(--line); display: grid; place-items: center; color: var(--muted); font-size: .85rem; }
@@ -120,24 +130,30 @@
     <div class="head">
       <p class="label">Tratamiento de adicciones</p>
       <h1>Implante subcutáneo de naltrexona</h1>
+      <p class="tagline">Reduce el deseo de consumo, recupera el control de tu vida.</p>
       <p class="intro">Un implante colocado bajo la piel que libera naltrexona de forma continua durante meses y ayuda a reducir el deseo de consumir.</p>
     </div>
 
     <!-- FOTO 1: reemplazar este bloque por <img src="foto-1.jpg" alt="..."> dentro de la figura -->
     <figure class="photo" aria-label="Espacio reservado para fotografía">Fotografía</figure>
 
+    <div class="highlight">
+      <p>Disminuye en un 80&nbsp;% el deseo de consumir y las recaídas.</p>
+      <p>Mejora la adherencia al tratamiento y reduce las recaídas.</p>
+    </div>
+
     <table class="facts">
       <tr><th scope="row">Qué es</th><td>Formulación de liberación prolongada de naltrexona, colocada en el tejido subcutáneo.</td></tr>
-      <tr><th scope="row">Duración aproximada</th><td>De 3 a 6 meses, según el producto, la dosis y cada persona.</td></tr>
+      <tr><th scope="row">Duración aproximada</th><td>Aproximadamente de 3 a 6 meses en las formulaciones estudiadas, según el producto, la cantidad administrada y la respuesta individual.</td></tr>
       <tr><th scope="row">Uso principal</th><td>Dependencia del alcohol y de opioides.</td></tr>
-      <tr><th scope="row">Requisito</th><td>Valoración clínica previa y ausencia de opioides en el organismo.</td></tr>
+      <tr><th scope="row">Requisito</th><td>Valoración clínica completa y descartar consumo reciente o dependencia física de opioides.</td></tr>
       <tr><th scope="row">No es</th><td>Un sedante ni un narcótico. No produce dependencia física.</td></tr>
     </table>
 
     <section>
       <h2>¿Cómo actúa?</h2>
-      <p>El cerebro tiene receptores opioides que participan en la sensación de placer y recompensa. Cuando el alcohol o ciertas sustancias los estimulan, se refuerza el deseo de repetir el consumo.</p>
-      <p>La naltrexona <strong>ocupa esos receptores sin activarlos</strong>, como una llave que entra en la cerradura pero no la gira. Así disminuye la recompensa asociada al consumo y, con ella, el deseo de seguir consumiendo. No elimina el placer en general ni actúa como sedante.</p>
+      <p>El cerebro tiene un sistema natural de recompensa en el que participan los receptores opioides, relacionados con el placer, la recompensa y la motivación. Algunas sustancias y conductas estimulan intensamente estos circuitos y favorecen que el comportamiento se repita.</p>
+      <p>La naltrexona <strong>ocupa esos receptores sin activarlos</strong>, como una llave que ocupa la cerradura pero no enciende el mecanismo. Esto puede reducir parte del refuerzo placentero asociado al consumo y ayudar a disminuir el deseo de seguir consumiendo. No bloquea directamente la dopamina ni elimina todas las sensaciones de placer.</p>
     </section>
 
     <section>
@@ -145,11 +161,11 @@
       <table class="ind">
         <thead><tr><th>Condición</th><th>Uso</th></tr></thead>
         <tbody>
-          <tr><td>Alcohol</td><td>Mayor respaldo científico. Reduce el deseo intenso de beber, los episodios de consumo excesivo y el riesgo de recaída.</td></tr>
+          <tr><td>Alcohol</td><td>Mayor respaldo científico. Puede disminuir el deseo intenso de beber, los episodios de consumo excesivo y el riesgo de recaída. No provoca una reacción desagradable al beber.</td></tr>
           <tr><td>Opioides (fentanilo, heroína, morfina, oxicodona)</td><td>Mayor respaldo científico. Bloquea la euforia y ayuda a mantener la abstinencia, siempre después de la desintoxicación.</td></tr>
-          <tr><td>Ludopatía</td><td>Casos seleccionados, sobre todo cuando la psicoterapia no ha sido suficiente.</td></tr>
-          <tr><td>Cocaína</td><td>Casos seleccionados. Útil especialmente si hay consumo de alcohol asociado.</td></tr>
-          <tr><td>TLP e impulsividad</td><td>Casos seleccionados, como apoyo a la psicoterapia (DBT).</td></tr>
+          <tr><td>Ludopatía</td><td>Casos seleccionados: cuando la psicoterapia no ha dado resultados suficientes o hay recaídas repetidas.</td></tr>
+          <tr><td>Cocaína</td><td>Casos seleccionados. Puede disminuir el deseo de consumo. Si también hay consumo de alcohol, puede considerarse para tratar el problema con el alcohol.</td></tr>
+          <tr><td>TLP e impulsividad</td><td>Casos seleccionados. La psicoterapia, en particular la terapia dialéctico-conductual (DBT), sigue siendo la intervención fundamental.</td></tr>
         </tbody>
       </table>
     </section>
@@ -162,8 +178,8 @@
     <section>
       <h2>Procedimiento</h2>
       <ol>
-        <li><strong>Valoración clínica:</strong> historia, medicamentos actuales y estudios de función hepática (y renal cuando corresponda).</li>
-        <li><strong>Confirmación sin opioides:</strong> 7 a 10 días sin opioides de acción corta; 10 a 14 días o más en los de acción prolongada. En el caso del fentanilo se individualiza.</li>
+        <li><strong>Valoración clínica:</strong> revisión de medicamentos actuales, función hepática (y renal cuando corresponda), y de las características, duración esperada y regulación sanitaria del implante.</li>
+        <li><strong>Confirmación sin opioides:</strong> habitualmente 7 a 10 días sin opioides de acción corta y 10 a 14 días o más en los de acción prolongada. En el caso del fentanilo se individualiza.</li>
         <li><strong>Colocación:</strong> procedimiento médico menor bajo la piel.</li>
         <li><strong>Seguimiento:</strong> control médico, psicoterapia y acompañamiento familiar.</li>
       </ol>
@@ -183,14 +199,25 @@
         <li>Si existe dependencia física activa de opioides, puede provocar un <strong>síndrome de abstinencia grave</strong>.</li>
         <li>Intentar vencer el bloqueo consumiendo grandes cantidades de opioides puede causar una <strong>sobredosis mortal</strong>.</li>
         <li>Ante una cirugía o urgencia, informe siempre que tiene un implante de naltrexona: dificulta el control del dolor con opioides.</li>
-        <li>No sustituye la desintoxicación ni protege de las complicaciones cardiovasculares o neurológicas de la cocaína.</li>
+        <li>No sustituye la desintoxicación ni elimina el riesgo de sobredosis.</li>
+        <li>No elimina la intoxicación alcohólica ni protege de las complicaciones cardiovasculares o neurológicas de la cocaína.</li>
       </ul>
     </section>
 
     <section>
       <h2>Una herramienta, no una cura</h2>
       <p>La naltrexona actúa sobre mecanismos cerebrales concretos, pero no elimina hábitos, detonantes emocionales ni patrones aprendidos. Su mejor resultado se obtiene junto con psicoterapia, seguimiento médico y la participación de la familia.</p>
-      <p>Para la familia: mantener una comunicación respetuosa, evitar la estigmatización, reconocer los avances y poner límites saludables. Una recaída requiere reevaluación clínica, no castigo.</p>
+      <p>Para la familia: mantener una comunicación respetuosa, evitar la estigmatización, reconocer los avances y poner límites saludables. Una recaída requiere reevaluación clínica, no solamente medidas disciplinarias.</p>
+    </section>
+
+    <section>
+      <h2>Referencias</h2>
+      <ol class="refs">
+        <li>NIH. Better Ways to Deliver Medications That Treat Addiction. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://heal.nih.gov/news/stories/naltrexone-implant" target="_blank" rel="noopener">https://heal.nih.gov/news/stories/naltrexone-implant</a></li>
+        <li>Medline Plus. Naltrexona. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://medlineplus.gov/spanish/druginfo/meds/a685041-es.html" target="_blank" rel="noopener">https://medlineplus.gov/spanish/druginfo/meds/a685041-es.html</a></li>
+        <li>Cleveland Clinic. Naltrexone tablets. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://my.clevelandclinic.org/health/drugs/18010-naltrexone-tablets" target="_blank" rel="noopener">https://my.clevelandclinic.org/health/drugs/18010-naltrexone-tablets</a></li>
+        <li>Monument. Naltrexone Benefits: Does Naltrexone Work? [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://joinmonument.com/resources/naltrexone-benefits/" target="_blank" rel="noopener">https://joinmonument.com/resources/naltrexone-benefits/</a></li>
+      </ol>
     </section>
 
     <div class="contact">
