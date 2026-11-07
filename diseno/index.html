@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Implante subcutáneo de naltrexona | Hermosillo</title>
+  <meta name="description" content="Implante subcutáneo de naltrexona: reduce el deseo de consumo. Qué es, cómo actúa, indicaciones, procedimiento y advertencias. Valoración en Hermosillo, Sonora." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:title" content="Implante subcutáneo de naltrexona" />
+  <meta property="og:description" content="Reduce el deseo de consumo, recupera el control de tu vida." />
+  <meta property="og:image" content="img/pellet-claro.jpg" />
+  <meta name="theme-color" content="#f6efe6" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --cream: #f6efe6;
+      --cream-2: #efe6da;
+      --ink: #17171a;
+      --muted: #6b6760;
+      --line: rgba(23,23,26,.14);
+      --night: #04060c;
+      --night-text: #e9ecf3;
+      --night-muted: #9aa3b5;
+      --night-line: rgba(233,236,243,.14);
+      --glow: #8fb8ff;
+      --warm: #ff8a3d;
+      --serif: "Instrument Serif", Georgia, serif;
+      --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      --max: 1160px;
+      --narrow: 760px;
+      --gut: clamp(16px, 5vw, 48px);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body { font-family: var(--sans); font-size: 17px; line-height: 1.65; color: var(--ink); background: var(--cream); -webkit-font-smoothing: antialiased; }
+    img, svg { display: block; max-width: 100%; }
+    a { color: inherit; }
+    strong { font-weight: 600; }
+
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gut); }
+    .narrow { max-width: calc(var(--narrow) + var(--gut) * 2); }
+
+    h1, h2, .display { font-family: var(--serif); font-weight: 400; letter-spacing: -.01em; line-height: 1.02; }
+    h2 { font-size: clamp(2.2rem, 5vw, 3.6rem); margin-bottom: 18px; }
+    h3 { font-size: 1.02rem; font-weight: 600; margin-bottom: 4px; }
+    .eyebrow { display: block; font-size: .76rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+    .lead { font-size: 1.12rem; color: var(--muted); max-width: 40rem; }
+    .block { padding: clamp(72px, 11vw, 140px) 0; }
+    .block + .block { padding-top: 0; }
+
+    /* Botones */
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 26px; border-radius: 999px; font-size: .95rem; font-weight: 500; text-decoration: none; transition: transform .2s, background .2s, color .2s; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-dark { background: var(--ink); color: var(--cream); }
+    .btn-ghost { border: 1px solid var(--ink); color: var(--ink); }
+    .btn-light { background: var(--night-text); color: var(--night); }
+    .btn-ghost-light { border: 1px solid rgba(233,236,243,.5); color: var(--night-text); }
+
+    /* Barra */
+    .bar { position: sticky; top: 0; z-index: 30; background: rgba(246,239,230,.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+    .bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; font-size: .9rem; }
+    .bar .name { font-weight: 500; }
+    .bar .name span { color: var(--muted); font-weight: 400; }
+    .bar .btn { padding: 9px 18px; font-size: .85rem; white-space: nowrap; flex: none; }
+    .bar .name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+    /* Hero */
+    .hero { text-align: center; padding: clamp(48px, 9vw, 110px) 0 0; }
+    .hero h1 { font-size: clamp(3rem, 9vw, 6.6rem); max-width: 12ch; margin: 0 auto 22px; }
+    .hero h1 em { font-style: italic; }
+    .hero .tag { font-size: clamp(1.15rem, 2.4vw, 1.45rem); max-width: 34rem; margin: 0 auto 30px; }
+    .hero .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    .hero-img { margin-top: clamp(40px, 7vw, 72px); border-radius: clamp(18px, 3vw, 32px); overflow: hidden; aspect-ratio: 3 / 2; background: var(--cream-2); }
+    .hero-img img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); transition: transform 1.6s cubic-bezier(.2,.7,.2,1); }
+    .hero-img.in img { transform: scale(1); }
+
+    /* Datos */
+    .stats { text-align: left; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-top: clamp(48px, 7vw, 80px); }
+    .stats > div { padding: 26px 22px 26px 0; }
+    .stats > div + div { padding-left: 22px; border-left: 1px solid var(--line); }
+    .stats .display { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 6px; }
+    .stats p { font-size: .9rem; color: var(--muted); }
+
+    /* Sección oscura */
+    .night { background: var(--night); color: var(--night-text); }
+    .night .eyebrow, .night .lead { color: var(--night-muted); }
+    .night-img { position: relative; max-width: 1400px; margin: 0 auto; aspect-ratio: 16 / 8; overflow: hidden; }
+    .night-img img { width: 100%; height: 100%; object-fit: cover; }
+    .night-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, var(--night) 0%, transparent 18%, transparent 72%, var(--night) 100%), linear-gradient(90deg, var(--night) 0%, transparent 14%, transparent 86%, var(--night) 100%); }
+    .claims { text-align: center; padding-bottom: clamp(72px, 11vw, 130px); margin-top: clamp(-60px, -6vw, -20px); position: relative; }
+    .claims p { font-family: var(--serif); font-size: clamp(2.3rem, 6.4vw, 4.8rem); line-height: 1.04; max-width: 15ch; margin: 0 auto; }
+    .claims p + p { margin-top: clamp(28px, 4vw, 44px); }
+    .claims .sep { width: 1px; height: 56px; background: var(--night-line); margin: clamp(28px, 4vw, 44px) auto; }
+
+    /* Cómo actúa */
+    .how-head { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 5vw, 72px); align-items: end; margin-bottom: clamp(36px, 6vw, 60px); }
+    .how-head p + p { margin-top: 12px; }
+    .brains { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--night-line); }
+    .brains figure { padding: 28px 0 0; }
+    .brains figure + figure { border-left: 1px solid var(--night-line); padding-left: clamp(16px, 3vw, 40px); }
+    .brains figure:first-child { padding-right: clamp(16px, 3vw, 40px); }
+    .state { display: inline-flex; align-items: center; gap: 8px; font-size: .78rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; }
+    .state i { width: 8px; height: 8px; border-radius: 50%; }
+    .state.off i { background: var(--warm); box-shadow: 0 0 12px var(--warm); }
+    .state.on i { background: var(--glow); box-shadow: 0 0 12px var(--glow); }
+    .brains figcaption { color: var(--night-muted); font-size: .95rem; margin-top: 8px; max-width: 30rem; }
+    .brain { width: 100%; height: auto; margin-top: 10px; }
+    .outcomes { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--night-line); border-bottom: 1px solid var(--night-line); margin-top: clamp(28px, 4vw, 48px); }
+    .outcomes div { padding: 22px 20px 22px 0; display: flex; gap: 12px; align-items: baseline; }
+    .outcomes div + div { border-left: 1px solid var(--night-line); padding-left: 20px; }
+    .outcomes b { font-family: var(--serif); font-weight: 400; font-size: 1.6rem; color: var(--glow); line-height: 1; }
+
+    .flow-line { stroke-dasharray: 6 8; animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: .55; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
+
+    /* Indicaciones */
+    .rows { border-top: 1px solid var(--ink); margin-top: 28px; }
+    .row { display: grid; grid-template-columns: 1.1fr 1fr 2fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+    .row .cond { font-family: var(--serif); font-size: 1.7rem; line-height: 1.1; }
+    .row .lvl { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+    .row .lvl.hi { color: var(--ink); font-weight: 600; }
+    .row p { color: var(--muted); font-size: .97rem; }
+
+    /* TLP */
+    .feature { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 90px); }
+    .feature .display { font-size: clamp(2.4rem, 5.4vw, 4rem); }
+    .feature .display em { font-style: italic; }
+    .feature p + p { margin-top: 14px; }
+    .traits { list-style: none; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); margin: 22px 0; }
+    .traits li { padding: 14px 0; border-bottom: 1px solid var(--line); font-weight: 500; }
+    .traits li:nth-child(odd) { padding-right: 14px; }
+    .traits li:nth-child(even) { padding-left: 14px; border-left: 1px solid var(--line); }
+    .quote { font-family: var(--serif); font-size: clamp(1.45rem, 2.8vw, 1.9rem); line-height: 1.25; padding-left: 20px; border-left: 1px solid var(--ink); }
+
+    /* Pasos */
+    .steps { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--ink); margin-top: 28px; }
+    .steps li { padding: 24px 22px 0 0; }
+    .steps li + li { padding-left: 22px; border-left: 1px solid var(--line); }
+    .steps .n { font-family: var(--serif); font-size: 2.6rem; line-height: 1; margin-bottom: 14px; display: block; }
+    .steps p { font-size: .94rem; color: var(--muted); }
+
+    /* Texto largo */
+    .prose p + p { margin-top: 14px; }
+    .prose ul { list-style: none; margin-top: 16px; padding-left: 20px; border-left: 1px solid var(--ink); }
+    .prose li + li { margin-top: 10px; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 80px); }
+
+    .refs { font-size: .84rem; color: var(--muted); padding-left: 1.2em; }
+    .refs li + li { margin-top: 8px; }
+    .refs a { word-break: break-all; }
+
+    /* CTA */
+    .cta { text-align: center; }
+    .cta h2 { font-size: clamp(2.6rem, 7vw, 5.2rem); max-width: 14ch; margin: 0 auto 18px; }
+    .cta .lead { margin: 0 auto 30px; }
+    .cta .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    .cta .data { margin-top: 34px; font-size: .9rem; color: var(--night-muted); }
+    .cta .data span { display: inline-block; margin: 0 12px; }
+    .cta .data a { text-decoration: none; }
+
+    footer { background: var(--night); color: var(--night-muted); font-size: .8rem; padding: 0 0 40px; }
+    footer .wrap { border-top: 1px solid var(--night-line); padding-top: 24px; }
+
+    /* Aparición */
+    .rv { opacity: 0; transform: translateY(22px); transition: opacity .9s ease, transform .9s cubic-bezier(.2,.7,.2,1); }
+    .rv.in { opacity: 1; transform: none; }
+    .no-js .rv { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .rv { opacity: 1; transform: none; }
+      .hero-img img { transform: none; }
+      html { scroll-behavior: auto; }
+    }
+
+    /* Responsivo */
+    @media (max-width: 900px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .stats > div:nth-child(3) { padding-left: 0; border-left: 0; }
+      .stats > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .how-head, .feature, .two { grid-template-columns: 1fr; }
+      .row { grid-template-columns: 1fr 2fr; }
+      .row .lvl { grid-column: 2; grid-row: 1; }
+      .row p { grid-column: 2; }
+      .row .cond { grid-row: 1 / span 2; }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .steps li:nth-child(3) { padding-left: 0; border-left: 0; }
+      .steps li { padding-bottom: 24px; }
+    }
+    @media (max-width: 640px) {
+      body { font-size: 16px; }
+      .bar .name span { display: none; }
+      .bar .name { font-size: .82rem; }
+      .bar .btn { padding: 8px 14px; font-size: .8rem; }
+      .stats { grid-template-columns: 1fr; }
+      .stats > div, .stats > div + div, .stats > div:nth-child(3) { padding: 18px 0; border-left: 0; border-bottom: 1px solid var(--line); }
+      .stats > div:last-child { border-bottom: 0; }
+      .stats .display { font-size: 2.1rem; }
+      .hero .actions .btn, .cta .actions .btn { width: 100%; }
+      .hero-img { aspect-ratio: 4 / 3; }
+      .night-img { aspect-ratio: 4 / 3; }
+      .brains { grid-template-columns: 1fr; }
+      .brains figure + figure { border-left: 0; padding-left: 0; border-top: 1px solid var(--night-line); margin-top: 24px; }
+      .brains figure:first-child { padding-right: 0; }
+      .outcomes { grid-template-columns: 1fr; }
+      .outcomes div + div { border-left: 0; padding-left: 0; border-top: 1px solid var(--night-line); }
+      .row { grid-template-columns: 1fr; gap: 4px; }
+      .row .cond, .row .lvl, .row p { grid-column: auto; grid-row: auto; }
+      .traits { grid-template-columns: 1fr; }
+      .traits li:nth-child(odd), .traits li:nth-child(even) { padding: 14px 0; border-left: 0; }
+      .steps { grid-template-columns: 1fr; }
+      .steps li, .steps li + li { padding: 20px 0; border-left: 0; border-bottom: 1px solid var(--line); }
+      .cta .data span { display: block; margin: 4px 0; }
+    }
+  </style>
+</head>
+
+<body class="no-js">
+  <script>document.body.classList.remove('no-js');</script>
+
+  <header class="bar">
+    <div class="wrap">
+      <span class="name">Lic. Christian Martínez Leyva <span>· Hermosillo</span></span>
+      <a class="btn btn-dark" data-wa href="https://wa.me/526623800030" target="_blank" rel="noopener">Agendar valoración</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow rv">Tratamiento de adicciones</span>
+      <h1 class="rv">Implante subcutáneo de <em>naltrexona</em></h1>
+      <p class="tag rv">Reduce el deseo de consumo, recupera el control de tu vida.</p>
+      <div class="actions rv">
+        <a class="btn btn-dark" data-wa href="https://wa.me/526623800030" target="_blank" rel="noopener">Agendar valoración</a>
+        <a class="btn btn-ghost" href="#como-actua">Cómo actúa</a>
+      </div>
+      <div class="hero-img rv">
+        <img src="img/pellet-claro.jpg" alt="Implante de naltrexona: un pequeño cilindro blanco" width="1536" height="1024" />
+      </div>
+
+      <div class="stats">
+        <div class="rv"><div class="display">3–6 meses</div><p>de liberación continua, aproximadamente, según el producto y cada persona.</p></div>
+        <div class="rv"><div class="display">1 colocación</div><p>bajo la piel, mediante un procedimiento médico menor.</p></div>
+        <div class="rv"><div class="display">Sin pastillas</div><p>diarias: el medicamento se libera de forma progresiva.</p></div>
+        <div class="rv"><div class="display">Sin dependencia</div><p>no es sedante ni narcótico y no produce dependencia física.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOCHE: afirmaciones + cómo actúa -->
+  <section class="night" style="margin-top: clamp(72px, 11vw, 140px);">
+    <div class="night-img">
+      <img src="img/pellet-oscuro.jpg" alt="" width="1536" height="1024" loading="lazy" />
+    </div>
+    <div class="wrap claims">
+      <p class="rv">Disminuye en un 80&nbsp;% el deseo de consumir y las recaídas.</p>
+      <div class="sep" aria-hidden="true"></div>
+      <p class="rv">Mejora la adherencia al tratamiento y reduce las recaídas.</p>
+    </div>
+
+    <div class="wrap" id="como-actua" style="padding-bottom: clamp(72px, 11vw, 140px);">
+      <div class="how-head">
+        <div class="rv">
+          <span class="eyebrow">Cómo actúa</span>
+          <h2>Modula el circuito de recompensa.</h2>
+        </div>
+        <div class="lead rv">
+          <p>El cerebro tiene un sistema natural de recompensa en el que participan los receptores opioides, relacionados con el placer y la motivación.</p>
+          <p>La naltrexona ocupa esos receptores sin activarlos, como una llave que ocupa la cerradura pero no enciende el mecanismo. Así puede reducir parte del refuerzo asociado a ciertas sustancias y conductas.</p>
+        </div>
+      </div>
+
+      <div class="brains">
+        <!-- SIN NALTREXONA -->
+        <figure class="rv">
+          <span class="state off"><i></i>Sin naltrexona</span>
+          <figcaption>El consumo o la conducta activa el circuito de recompensa.</figcaption>
+          <svg class="brain" viewBox="0 0 520 380" role="img" aria-label="Cerebro sin naltrexona: el área tegmental ventral, el núcleo accumbens y la corteza prefrontal se activan intensamente">
+            <defs>
+              <filter id="gW" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              <radialGradient id="heat" cx="62%" cy="58%" r="45%"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".45"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+            </defs>
+            <g fill="none" stroke="rgba(170,190,235,.55)" stroke-width="1.6" stroke-linecap="round">
+              <path d="M90 230C60 180 70 110 130 80C170 45 240 35 300 45C370 50 430 85 455 140C475 185 465 235 430 255C410 268 385 270 360 268L330 285C300 300 260 300 230 290C200 300 160 298 130 280C105 268 95 250 90 230Z"/>
+              <path d="M150 282C138 312 170 332 210 326C240 321 252 302 236 290"/>
+              <path d="M240 296C244 322 248 346 252 370M272 296C270 322 270 346 274 370"/>
+              <path d="M150 120C190 140 200 110 240 122M260 68C270 108 300 120 322 100M345 82C350 112 380 118 400 105M340 142C360 172 400 162 422 182M160 200C200 190 230 222 280 206M300 236C330 214 360 234 392 218M190 236C240 216 290 212 345 190M115 160C140 170 150 150 175 160"/>
+            </g>
+            <ellipse cx="320" cy="215" rx="170" ry="120" fill="url(#heat)"/>
+            <g stroke="#ff8a3d" stroke-width="2.4" fill="none" filter="url(#gW)">
+              <path class="flow-line" d="M258 262C290 258 312 242 336 218"/>
+              <path class="flow-line" d="M336 218C370 192 400 176 425 148"/>
+            </g>
+            <g fill="#ffd2a8" filter="url(#gW)">
+              <circle class="pulse" cx="258" cy="262" r="7"/>
+              <circle class="pulse" cx="336" cy="218" r="7" style="animation-delay:.4s"/>
+              <circle class="pulse" cx="425" cy="148" r="7" style="animation-delay:.8s"/>
+            </g>
+            <g font-family="Inter, sans-serif" font-size="13" fill="#e9ecf3">
+              <text x="440" y="118">Corteza</text><text x="440" y="134">prefrontal</text>
+              <text x="282" y="186">Núcleo</text><text x="282" y="202">accumbens</text>
+              <text x="140" y="330" text-anchor="end">Área tegmental</text><text x="140" y="346" text-anchor="end">ventral (ATV)</text>
+              <path d="M144 336H200L252 268" stroke="rgba(233,236,243,.4)" fill="none"/>
+            </g>
+          </svg>
+        </figure>
+
+        <!-- CON NALTREXONA -->
+        <figure class="rv">
+          <span class="state on"><i></i>Con naltrexona</span>
+          <figcaption>Bloquea los receptores opioides y reduce el placer, el deseo y el refuerzo.</figcaption>
+          <svg class="brain" viewBox="0 0 520 380" role="img" aria-label="Cerebro con naltrexona: los receptores opioides están bloqueados y el circuito de recompensa se atenúa">
+            <defs>
+              <filter id="gC" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <g fill="none" stroke="rgba(170,190,235,.55)" stroke-width="1.6" stroke-linecap="round">
+              <path d="M90 230C60 180 70 110 130 80C170 45 240 35 300 45C370 50 430 85 455 140C475 185 465 235 430 255C410 268 385 270 360 268L330 285C300 300 260 300 230 290C200 300 160 298 130 280C105 268 95 250 90 230Z"/>
+              <path d="M150 282C138 312 170 332 210 326C240 321 252 302 236 290"/>
+              <path d="M240 296C244 322 248 346 252 370M272 296C270 322 270 346 274 370"/>
+              <path d="M150 120C190 140 200 110 240 122M260 68C270 108 300 120 322 100M345 82C350 112 380 118 400 105M340 142C360 172 400 162 422 182M160 200C200 190 230 222 280 206M300 236C330 214 360 234 392 218M190 236C240 216 290 212 345 190M115 160C140 170 150 150 175 160"/>
+            </g>
+            <g stroke="rgba(143,184,255,.45)" stroke-width="1.6" fill="none" stroke-dasharray="3 7">
+              <path d="M258 262C290 258 312 242 336 218"/>
+              <path d="M336 218C370 192 400 176 425 148"/>
+            </g>
+            <g fill="#8fb8ff" filter="url(#gC)" opacity=".85">
+              <circle cx="258" cy="262" r="5"/><circle cx="425" cy="148" r="5"/>
+            </g>
+            <g filter="url(#gC)">
+              <circle cx="336" cy="218" r="22" fill="none" stroke="#8fb8ff" stroke-width="2"/>
+              <path d="M320 234L352 202" stroke="#8fb8ff" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="336" cy="218" r="5" fill="#8fb8ff" opacity=".6"/>
+            </g>
+            <g font-family="Inter, sans-serif" font-size="13" fill="#e9ecf3">
+              <text x="440" y="118">Corteza</text><text x="440" y="134">prefrontal</text>
+              <text x="290" y="174">Receptores</text><text x="290" y="190">bloqueados</text>
+              <text x="140" y="330" text-anchor="end">Área tegmental</text><text x="140" y="346" text-anchor="end">ventral (ATV)</text>
+              <path d="M144 336H200L252 268" stroke="rgba(233,236,243,.4)" fill="none"/>
+            </g>
+          </svg>
+        </figure>
+      </div>
+
+      <div class="outcomes">
+        <div class="rv"><b>↓</b><span>Menor sensación de placer</span></div>
+        <div class="rv"><b>↓</b><span>Menor deseo de consumo</span></div>
+        <div class="rv"><b>✓</b><span>Apoyo en la prevención de recaídas</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDICACIONES -->
+  <section class="block">
+    <div class="wrap">
+      <span class="eyebrow rv">Indicaciones</span>
+      <h2 class="rv">¿En qué casos se utiliza?</h2>
+      <div class="rows">
+        <div class="row rv"><span class="cond">Alcohol</span><span class="lvl hi">Mayor respaldo</span><p>Puede disminuir el deseo intenso de beber, los episodios de consumo excesivo y el riesgo de recaída. No provoca una reacción desagradable al beber.</p></div>
+        <div class="row rv"><span class="cond">Opioides</span><span class="lvl hi">Mayor respaldo</span><p>Fentanilo, heroína, morfina, oxicodona. Bloquea la euforia y ayuda a mantener la abstinencia, siempre después de la desintoxicación.</p></div>
+        <div class="row rv"><span class="cond">Ludopatía</span><span class="lvl">Casos seleccionados</span><p>Cuando la psicoterapia no ha dado resultados suficientes o hay recaídas repetidas.</p></div>
+        <div class="row rv"><span class="cond">Cocaína</span><span class="lvl">Casos seleccionados</span><p>Puede disminuir el deseo de consumo. Si también hay consumo de alcohol, puede considerarse para tratar el problema con el alcohol.</p></div>
+        <div class="row rv"><span class="cond">Metanfetamina (cristal)</span><span class="lvl">Casos seleccionados</span><p>Al bloquear los receptores opioides, puede reducir la recompensa y el refuerzo asociados al consumo, así como el deseo de consumir.</p></div>
+        <div class="row rv"><span class="cond">TLP e impulsividad</span><span class="lvl">Casos seleccionados</span><p>Como parte de un abordaje terapéutico integral.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TLP -->
+  <section class="block">
+    <div class="wrap feature">
+      <div class="rv">
+        <span class="eyebrow">Trastorno límite de la personalidad</span>
+        <p class="display">TLP e <em>impulsividad</em></p>
+      </div>
+      <div class="rv">
+        <p>El TLP puede acompañarse de dificultades para regular emociones intensas, impulsividad, conductas autolesivas y comportamientos de riesgo.</p>
+        <ul class="traits">
+          <li>Emociones intensas</li><li>Impulsividad</li><li>Conductas autolesivas</li><li>Comportamientos de riesgo</li>
+        </ul>
+        <p>Se ha planteado la hipótesis de que el sistema opioide endógeno podría participar en determinados mecanismos de regulación emocional y autolesiones.</p>
+        <p class="quote" style="margin-top:22px">La naltrexona podría ayudar a reducir la impulsividad y la frecuencia de autolesiones en algunos pacientes con TLP, como parte de un abordaje integral.</p>
+        <p style="margin-top:18px;color:var(--muted)">La psicoterapia, en particular la terapia dialéctico-conductual (DBT), sigue siendo la intervención fundamental.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="block">
+    <div class="wrap">
+      <span class="eyebrow rv">Procedimiento</span>
+      <h2 class="rv">Cuatro pasos.</h2>
+      <ol class="steps">
+        <li class="rv"><span class="n">01</span><h3>Valoración clínica</h3><p>Medicamentos actuales, función hepática (y renal cuando corresponda), y características, duración y regulación sanitaria del implante.</p></li>
+        <li class="rv"><span class="n">02</span><h3>Sin opioides</h3><p>Habitualmente 7 a 10 días sin opioides de acción corta y 10 a 14 o más en los de acción prolongada. En fentanilo se individualiza.</p></li>
+        <li class="rv"><span class="n">03</span><h3>Colocación</h3><p>Procedimiento médico menor bajo la piel.</p></li>
+        <li class="rv"><span class="n">04</span><h3>Seguimiento</h3><p>Control médico, psicoterapia, prevención de recaídas y acompañamiento familiar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SEGURIDAD -->
+  <section class="block">
+    <div class="wrap two prose">
+      <div class="rv">
+        <span class="eyebrow">Seguridad</span>
+        <h2>Efectos adversos</h2>
+        <p>Pueden presentarse náuseas, dolor de cabeza, mareo, cansancio, alteraciones del sueño o malestar abdominal. En la zona del implante: dolor, inflamación, infección, rechazo o expulsión.</p>
+        <p>La naltrexona oral debe tomarse todos los días; el implante libera el medicamento de forma progresiva, evita olvidos y da continuidad al tratamiento.</p>
+      </div>
+      <div class="rv">
+        <span class="eyebrow">Importante</span>
+        <h2>Advertencias</h2>
+        <ul>
+          <li>Con dependencia física activa de opioides puede provocar un <strong>síndrome de abstinencia grave</strong>.</li>
+          <li>Intentar vencer el bloqueo con grandes cantidades de opioides puede causar una <strong>sobredosis mortal</strong>.</li>
+          <li>Ante una cirugía o urgencia, informe que tiene un implante de naltrexona: dificulta el control del dolor con opioides.</li>
+          <li>No sustituye la desintoxicación ni elimina el riesgo de sobredosis.</li>
+          <li>No elimina la intoxicación alcohólica ni protege de las complicaciones cardiovasculares o neurológicas de la cocaína.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERRAMIENTA / FAMILIA -->
+  <section class="block">
+    <div class="wrap two prose">
+      <div class="rv">
+        <h2>Una herramienta, no una cura.</h2>
+        <p>Actúa sobre mecanismos cerebrales concretos, pero no elimina hábitos, detonantes emocionales ni patrones aprendidos. Su mejor resultado se obtiene junto con psicoterapia, seguimiento médico y la participación de la familia.</p>
+      </div>
+      <div class="rv">
+        <h2>La familia.</h2>
+        <p>Mantener una comunicación respetuosa, evitar la estigmatización, reconocer los avances y poner límites saludables. Una recaída requiere reevaluación clínica, no solamente medidas disciplinarias.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFERENCIAS -->
+  <section class="block">
+    <div class="wrap narrow" style="margin-left:auto;margin-right:auto">
+      <span class="eyebrow">Referencias</span>
+      <ol class="refs">
+        <li>NIH. Better Ways to Deliver Medications That Treat Addiction. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://heal.nih.gov/news/stories/naltrexone-implant" target="_blank" rel="noopener">https://heal.nih.gov/news/stories/naltrexone-implant</a></li>
+        <li>Medline Plus. Naltrexona. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://medlineplus.gov/spanish/druginfo/meds/a685041-es.html" target="_blank" rel="noopener">https://medlineplus.gov/spanish/druginfo/meds/a685041-es.html</a></li>
+        <li>Cleveland Clinic. Naltrexone tablets. [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://my.clevelandclinic.org/health/drugs/18010-naltrexone-tablets" target="_blank" rel="noopener">https://my.clevelandclinic.org/health/drugs/18010-naltrexone-tablets</a></li>
+        <li>Monument. Naltrexone Benefits: Does Naltrexone Work? [Internet]. Consultado en mayo 2025. Disponible en: <a href="https://joinmonument.com/resources/naltrexone-benefits/" target="_blank" rel="noopener">https://joinmonument.com/resources/naltrexone-benefits/</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="night block cta">
+    <div class="wrap">
+      <span class="eyebrow rv">Siguiente paso</span>
+      <h2 class="rv">Recupera el control de tu vida.</h2>
+      <p class="lead rv">Cada caso es distinto. En la valoración se determina si el implante es adecuado y cómo integrarlo a un plan de tratamiento.</p>
+      <div class="actions rv">
+        <a class="btn btn-light" data-wa href="https://wa.me/526623800030" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <a class="btn btn-ghost-light" href="tel:+526623800030">Llamar al 662 380 0030</a>
+      </div>
+      <div class="data rv">
+        <span>Lic. Christian Martínez Leyva, psicólogo clínico</span>
+        <span>Hermosillo, Sonora · Lunes a viernes, con cita previa</span>
+        <span><a href="mailto:licmartinezleyva@gmail.com">licmartinezleyva@gmail.com</a></span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      Información para pacientes y familiares; no sustituye una consulta. La indicación y colocación del implante requieren valoración y procedimiento por personal médico. Los resultados varían en cada persona.
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var msg = encodeURIComponent('Hola, me interesa información sobre el implante de naltrexona.');
+      document.querySelectorAll('[data-wa]').forEach(function (a) { a.href = 'https://wa.me/526623800030?text=' + msg; });
+      var els = document.querySelectorAll('.rv');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (e) { io.observe(e); });
+    })();
+  </script>
+</body>
+</html>
